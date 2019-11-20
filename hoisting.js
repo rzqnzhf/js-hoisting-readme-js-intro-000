@@ -25,3 +25,5 @@ function sayMyName() {
   }
   sayMy()
 }
+
+var theHook = sayMyName(sayMy());
